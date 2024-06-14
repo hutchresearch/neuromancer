@@ -1001,6 +1001,11 @@ class LSTM(Block):
         dropout (float, optional): If non-zero, introduces a dropout layer on the outputs of each
                                    LSTM layer except the last layer, with dropout probability equal
                                    to the value specified. Defaults to 0.0.
+
+    Contributors:
+        - @Seth1Briney
+        - @diego-llanes
+        - @HarryLTS
         """
         super().__init__()
         self.in_features, self.out_features = insize, outsize
